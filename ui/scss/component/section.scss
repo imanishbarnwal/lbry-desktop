@@ -114,7 +114,7 @@
   }
 
   .button--primary,
-  .button ~ .button--link {
+  .button--link {
     &:focus {
       @include focus;
     }
