@@ -54,8 +54,8 @@
     left: -0.4rem;
     right: -5rem;
     height: 1.75rem;
-    background-color: #ffd580;
     transform: skew(20deg);
+    background-color: var(--color-purchased);
   }
 }
 
@@ -63,7 +63,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  color: var(--color-gray-5);
+  color: var(--color-purchased-text);
 
   span {
     position: relative;
@@ -76,8 +76,8 @@
     left: 0;
     right: -5rem;
     height: 1.75rem;
-    background-color: #ffebc2;
-    border: 2px solid #ffd580;
+    background-color: var(--color-purchased-alt);
+    border: 2px solid var(--color-purchased);
     transform: skew(20deg);
   }
 }

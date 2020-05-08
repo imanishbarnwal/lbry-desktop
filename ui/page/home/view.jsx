@@ -54,6 +54,16 @@ function HomePage(props: Props) {
     }
 
     rowData.push({
+      title: 'test',
+      link: `/@mime:6`,
+      options: {
+        orderBy: ['release_time'],
+        pageSize: 4,
+        channelIds: ['649f5d766f6ca2db1be249b09e164ffe52939751'],
+      },
+    });
+
+    rowData.push({
       title: 'Recent From Following',
       link: `/$/${PAGES.CHANNELS_FOLLOWING}`,
       options: {
